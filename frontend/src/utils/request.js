@@ -8,9 +8,9 @@ const REFRESH_TOKEN_URL = "/user/refresh_token/";
 const LOGIN_PATH = "/user/login";
 let requestQueue = [],
   isRefreshing = false;
-
+  
 const instance = axios.create({
-  baseURL: "http://192.168.0.101:8080/api/",
+  baseURL: "http://192.168.100.167:8000/api/",
   timeout: 6000000,
 });
 
