@@ -10,7 +10,7 @@ let requestQueue = [],
   isRefreshing = false;
   
 const instance = axios.create({
-  baseURL: "http://192.168.100.167:8000/api/",
+  baseURL: "/api/",
   timeout: 6000000,
 });
 

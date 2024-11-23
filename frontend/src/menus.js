@@ -45,7 +45,9 @@ export default [
     key: '7', name: '库存管理', icon: 'database', submenus: [
       { key: '/warehouse/inStock', name: '入库任务' },
       { key: '/warehouse/outStock', name: '出库任务' },
-      { key: '/warehouse/inventory', name: '盘点' },
+      { key: '/warehouse/qrIventory', name: '扫码盘点' },
+      { key: '/warehouse/qrInStock', name: '扫码入库' },
+      { key: '/warehouse/inventory', name: '手动盘点' },
       { key: '/warehouse/allocation', name: '调拨' },
       { key: '/warehouse/flow', name: '库存流水' },
     ]

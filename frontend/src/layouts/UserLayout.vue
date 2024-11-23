@@ -3,13 +3,13 @@
     <a-card class="card">
       <div>
         <div style="text-align: center; padding-top: 16px">
-          <img :src="logo" width="100" style="cursor: pointer; margin-top: 16px" @click="backIndex" />
+          <img :src="logo" width="100" style="cursor: pointer; margin-top: 16px" />
         </div>
         <div class="title" style="margin-top: 16px">
-          <span style="cursor: pointer; font-size: 24px" @click="backIndex">Himool ERP</span>
+          <span style="cursor: pointer; font-size: 24px" >Himool ERP</span>
         </div>
         <div style="text-align: center; font-size: 16px; color: #1890ff; margin-top: 8px; margin-bottom: 24px">
-          <span>盒木进销存管理系统</span>
+          <span>奇悦进销存管理系统</span>
         </div>
       </div>
       <router-view />
